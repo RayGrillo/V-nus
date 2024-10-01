@@ -20,6 +20,22 @@ body {
     color: var(--branco-q-n-e-branco);
 }
 
+p {
+    padding-top: 5px;
+}
+
+a {
+    color: var(--branco-q-n-e-branco);
+    text-decoration: none;
+}
+
+div img {
+    border-radius: 20px;
+    border: 2px solid var(--branco-q-n-e-branco);
+    width: 350px;
+    margin: 0 10px;
+}
+
 .cabecalho {
     background-color: var(--cor-bg-cabecalho);
     display: flex;
@@ -69,7 +85,7 @@ body {
 .sumario {
     background-color: var(--cor-bg-cabecalho);
     text-align: center;
-    margin: 10px 15%;
+    margin: 15px 15%;
     border-radius: 30px;
 }
 
@@ -84,6 +100,15 @@ body {
 
 .topicos {
     padding: 20px 13%;
+}
+
+.padrao-dos-topicos {
+    display: flex;
+    align-items: center;
+}
+
+.visitas-img {
+    width: 330px;
 }
 
 .rodape {
